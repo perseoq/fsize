@@ -2,7 +2,7 @@
 
 ## Descripción
 
-FSize es una herramienta de línea de comandos escrita en C++ que muestra el tamaño de archivos y directorios en diferentes unidades (Bytes, KB, MB, GB, TB) de forma clara y concisa.
+FSize es una herramienta de línea de comandos escrita en C++ que muestra el tamaño de archivos y directorios en diferentes unidades (KB, MB, GB, TB) de forma clara y concisa.
 
 ## Características
 
