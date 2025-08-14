@@ -22,7 +22,6 @@ void printHelp() {
     std::cout << "  -f, --file ARCHIVO       Especifica un archivo para analizar\n";
     std::cout << "  -d, --directory DIR      Especifica un directorio para analizar\n";
     std::cout << "  -h, --help               Muestra esta ayuda y sale\n";
-    std::cout << "  -p                       Muestra una barra de progreso (no implementado aún)\n\n";
     std::cout << "Ejemplos:\n";
     std::cout << "  fsize --file /ruta/archivo.ext\n";
     std::cout << "  fsize -d /ruta/directorio/\n";
