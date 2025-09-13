@@ -94,14 +94,14 @@ int main(int argc, char* argv[]) {
     fs::path targetPath;
     bool isFile = false;
     bool isDirectory = false;
-    bool showProgress = false;
+    //  bool showProgress = false;
     
     for (size_t i = 0; i < args.size(); ++i) {
         if (args[i] == "--help" || args[i] == "-h") {
             printHelp();
             return 0;
-        } else if (args[i] == "-p") {
-            showProgress = true;
+        // } else if (args[i] == "-p") {
+            // showProgress = true;
         } else if (args[i] == "--file" || args[i] == "-f") {
             if (i + 1 >= args.size()) {
                 std::cerr << "Error: Se esperaba un archivo después de " << args[i] << "\n";
